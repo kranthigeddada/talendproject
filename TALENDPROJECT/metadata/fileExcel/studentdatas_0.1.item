@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_fs-m8d-REeibn_MpDGtpAA" name="studentdatas" dataPackage="_fs-m8t-REeibn_MpDGtpAA" Server="Localhost 127.0.0.1" FilePath="D:/Talend Files/studentdata.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_fs-m8t-REeibn_MpDGtpAA" name="default" dataManager="_fs-m8d-REeibn_MpDGtpAA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_fs-m89-REeibn_MpDGtpAA" id="_TUjRsN-REeibn_MpDGtpAA" label="studentdata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fs-m9N-REeibn_MpDGtpAA" label="student_id" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fs-m9d-REeibn_MpDGtpAA" label="student_name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
