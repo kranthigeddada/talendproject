@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_v9iZcN-TEeibn_MpDGtpAA" name="mssqlcon" id="_DqwAYN-TEeibn_MpDGtpAA" label="mssqlcon" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://LAPTOP-585H94VV\SA:1433;DatabaseName=master;" dbVersionString="MSSQL_PROP" Port="1433" Username="LAPTOP-585H94VV\Kranthi" Password="" ServerName="LAPTOP-585H94VV\SA" DatasourceName="" FileFieldName="" SID="master" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_v9kOoN-TEeibn_MpDGtpAA" tag="Is Conn Need Reload" value="true"/>
+  <parameters xmi:id="_v9kOod-TEeibn_MpDGtpAA" key="CONN_PARA_KEY_USERNAME" value="LAPTOP-585H94VV\Kranthi"/>
+</TalendMetadata:DatabaseConnection>
