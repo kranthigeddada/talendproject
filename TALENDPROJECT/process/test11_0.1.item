@@ -189,8 +189,8 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="studenttest">
-        <mapperTableEntries name="studentid" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="studentname" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="studentid" expression="row1.studentid " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="studentname" expression="row1.studentname " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="studentid" type="id_Integer" nullable="true"/>
