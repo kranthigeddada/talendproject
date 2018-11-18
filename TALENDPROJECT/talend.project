@@ -124,6 +124,24 @@
       <relatedItems xmi:id="_Y8gijeszEeiRfaGvCzFeUg" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Y8gijuszEeiRfaGvCzFeUg" id="_CisSwOsxEeiRfaGvCzFeUg - istudenttest" version="Latest" type="schema"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_RwXkkOs2EeiRfaGvCzFeUg">
+      <baseItem xmi:id="_RwXkkes2EeiRfaGvCzFeUg" id="_JkGjMOs1EeiRfaGvCzFeUg" version="0.1" type="job"/>
+      <relatedItems xmi:id="_RwXkkus2EeiRfaGvCzFeUg" id="_CisSwOsxEeiRfaGvCzFeUg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_RwXkk-s2EeiRfaGvCzFeUg" id="_-W4nYOs1EeiRfaGvCzFeUg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_RwXklOs2EeiRfaGvCzFeUg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXkles2EeiRfaGvCzFeUg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXklus2EeiRfaGvCzFeUg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXkl-s2EeiRfaGvCzFeUg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXkmOs2EeiRfaGvCzFeUg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXkmes2EeiRfaGvCzFeUg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXkmus2EeiRfaGvCzFeUg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXkm-s2EeiRfaGvCzFeUg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXknOs2EeiRfaGvCzFeUg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXknes2EeiRfaGvCzFeUg" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXknus2EeiRfaGvCzFeUg" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_RwXkn-s2EeiRfaGvCzFeUg" id="_CisSwOsxEeiRfaGvCzFeUg - istudenttest" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_RwXkoOs2EeiRfaGvCzFeUg" id="_-W4nYOs1EeiRfaGvCzFeUg - istudenttest" version="Latest" type="schema"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_j0l9cNm7EeiijKm0RqG5lA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_j0l9cdm7EeiijKm0RqG5lA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_j0l9ctm7EeiijKm0RqG5lA" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
