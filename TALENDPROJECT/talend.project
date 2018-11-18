@@ -50,7 +50,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_PcdnoN9WEeiph9dHQWBhuw">
       <baseItem xmi:id="_Pcdnod9WEeiph9dHQWBhuw" id="_Byl4oN9WEeiph9dHQWBhuw" version="0.1" type="job"/>
-      <relatedItems xmi:id="_Pcdnot9WEeiph9dHQWBhuw" id="_1ibkAN9UEeiph9dHQWBhuw" version="Latest" type="property"/>
       <relatedItems xmi:id="_Pcdno99WEeiph9dHQWBhuw" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_PcdnpN9WEeiph9dHQWBhuw" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Pcdnpd9WEeiph9dHQWBhuw" id="TalendString" version="Latest" type="routine"/>
@@ -62,7 +61,6 @@
       <relatedItems xmi:id="_Pcdnq99WEeiph9dHQWBhuw" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_PcdnrN9WEeiph9dHQWBhuw" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Pcdnrd9WEeiph9dHQWBhuw" id="TalendStringUtil" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Pcdnrt9WEeiph9dHQWBhuw" id="_1ibkAN9UEeiph9dHQWBhuw - studentdata" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_5eG74OADEeiQguRShYNxOQ">
       <baseItem xmi:id="_5eG74eADEeiQguRShYNxOQ" id="_rTG1wOADEeiQguRShYNxOQ" version="0.1" type="job"/>
