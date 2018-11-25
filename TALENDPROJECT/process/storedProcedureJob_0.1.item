@@ -149,7 +149,7 @@
       <elementValue elementRef="COLUMN" value="HeadOfState"/>
       <elementValue elementRef="TYPE" value="IN"/>
       <elementValue elementRef="COLUMN" value="Continent"/>
-      <elementValue elementRef="TYPE" value="OUT"/>
+      <elementValue elementRef="TYPE" value="IN"/>
     </elementParameter>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
