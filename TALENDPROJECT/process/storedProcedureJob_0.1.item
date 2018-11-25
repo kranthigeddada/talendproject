@@ -145,9 +145,9 @@
     <elementParameter field="COLUMN_LIST" name="RETURN" value="Name" show="false"/>
     <elementParameter field="TABLE" name="SP_ARGS">
       <elementValue elementRef="COLUMN" value="Name"/>
-      <elementValue elementRef="TYPE" value="IN"/>
+      <elementValue elementRef="TYPE" value="OUT"/>
       <elementValue elementRef="COLUMN" value="HeadOfState"/>
-      <elementValue elementRef="TYPE" value="IN"/>
+      <elementValue elementRef="TYPE" value="OUT"/>
       <elementValue elementRef="COLUMN" value="Continent"/>
       <elementValue elementRef="TYPE" value="INOUT"/>
     </elementParameter>
