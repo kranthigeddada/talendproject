@@ -158,6 +158,7 @@
       <relatedItems xmi:id="_9fMpffBvEeiRfaGvCzFeUg" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_9fMpfvBvEeiRfaGvCzFeUg" id="_DqwAYN-TEeibn_MpDGtpAA - input" version="Latest" type="schema"/>
       <relatedItems xmi:id="_9fMpf_BvEeiRfaGvCzFeUg" id="_DqwAYN-TEeibn_MpDGtpAA - output" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_oKI68PBwEeiRfaGvCzFeUg" id="_vNMOUPBtEeiRfaGvCzFeUg" version="Latest" type="property"/>
     </ItemsRelations>
     <migrationTask xmi:id="_j0l9cNm7EeiijKm0RqG5lA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_j0l9cdm7EeiijKm0RqG5lA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
