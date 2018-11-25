@@ -16,7 +16,6 @@
   <orgomg.cwm.resource.relational:Catalog xmi:id="_4I_lwesJEeiRfaGvCzFeUg" name="test" dataManager="_v9iZcN-TEeibn_MpDGtpAA">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_67i2YfBuEeiRfaGvCzFeUg" name="input" id="_67i2YPBuEeiRfaGvCzFeUg" label="input" tableType="TABLE">
       <taggedValue xmi:id="_67i2YvBuEeiRfaGvCzFeUg" tag="Comment" value=""/>
-      <taggedValue xmi:id="_67i2Y_BuEeiRfaGvCzFeUg" tag="Comment" value=""/>
       <feature xsi:type="relational:TdColumn" xmi:id="_67i2ZPBuEeiRfaGvCzFeUg" name="name" label="name" length="15" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_67i2ZfBuEeiRfaGvCzFeUg" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_67i2ZvBuEeiRfaGvCzFeUg" language="COLUMN_DEF"/>
@@ -25,11 +24,29 @@
     </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_7jUBAfBuEeiRfaGvCzFeUg" name="output" id="_7jUBAPBuEeiRfaGvCzFeUg" label="output" tableType="TABLE">
       <taggedValue xmi:id="_7jUBAvBuEeiRfaGvCzFeUg" tag="Comment" value=""/>
-      <taggedValue xmi:id="_7jUBA_BuEeiRfaGvCzFeUg" tag="Comment" value=""/>
       <feature xsi:type="relational:TdColumn" xmi:id="_7jUBBPBuEeiRfaGvCzFeUg" name="name" label="name" length="15" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_7jUBBfBuEeiRfaGvCzFeUg" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_7jUBBvBuEeiRfaGvCzFeUg" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_7jUBB_BuEeiRfaGvCzFeUg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_urcn0PCcEeiRfaGvCzFeUg" name="country" id="_urbZsPCcEeiRfaGvCzFeUg" label="country" tableType="TABLE">
+      <taggedValue xmi:id="_urcn0fCcEeiRfaGvCzFeUg" tag="Comment" value=""/>
+      <taggedValue xmi:id="_urcn0vCcEeiRfaGvCzFeUg" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_urcn0_CcEeiRfaGvCzFeUg" name="Name" label="Name" length="40" sourceType="CHAR" talendType="id_String">
+        <taggedValue xmi:id="_urcn1PCcEeiRfaGvCzFeUg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_urcn1fCcEeiRfaGvCzFeUg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_urcn1vCcEeiRfaGvCzFeUg" name="CHAR" numericPrecisionRadix="10" javaDataType="1" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_urcn1_CcEeiRfaGvCzFeUg" name="HeadOfState" label="HeadOfState" length="40" sourceType="CHAR" talendType="id_String">
+        <taggedValue xmi:id="_urcn2PCcEeiRfaGvCzFeUg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_urcn2fCcEeiRfaGvCzFeUg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_urcn2vCcEeiRfaGvCzFeUg" name="CHAR" numericPrecisionRadix="10" javaDataType="1" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_urcn2_CcEeiRfaGvCzFeUg" name="Continent" label="Continent" length="40" sourceType="CHAR" talendType="id_String">
+        <taggedValue xmi:id="_urcn3PCcEeiRfaGvCzFeUg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_urcn3fCcEeiRfaGvCzFeUg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_urcn3vCcEeiRfaGvCzFeUg" name="CHAR" numericPrecisionRadix="10" javaDataType="1" nullable="columnNullable"/>
       </feature>
     </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
