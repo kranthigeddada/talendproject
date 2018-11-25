@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_dxyR8PBuEeiRfaGvCzFeUg" name="mysqlcon" id="_vNMOUPBtEeiRfaGvCzFeUg" label="mysqlcon" dataPackage="_d1dRAPBuEeiRfaGvCzFeUg" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/test?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="rizIj6giP70=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="test" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_dxyR8fBuEeiRfaGvCzFeUg" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_dyljMPBuEeiRfaGvCzFeUg" tag="package filter" value=""/>
@@ -14,5 +14,24 @@
     <taggedValue xmi:id="_d0JCYvBuEeiRfaGvCzFeUg" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_dxyR8vBuEeiRfaGvCzFeUg" key="CONN_PARA_KEY_USERNAME" value="root"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_d1dRAPBuEeiRfaGvCzFeUg" name="test" dataManager="_dxyR8PBuEeiRfaGvCzFeUg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_d1dRAPBuEeiRfaGvCzFeUg" name="test" dataManager="_dxyR8PBuEeiRfaGvCzFeUg">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_McTakfBzEeiRfaGvCzFeUg" name="input" id="_McTakPBzEeiRfaGvCzFeUg" label="input" tableType="TABLE">
+      <taggedValue xmi:id="_McTakvBzEeiRfaGvCzFeUg" tag="Comment" value=""/>
+      <taggedValue xmi:id="_McTak_BzEeiRfaGvCzFeUg" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_McTalPBzEeiRfaGvCzFeUg" name="name" label="name" length="15" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_McTalfBzEeiRfaGvCzFeUg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_McTalvBzEeiRfaGvCzFeUg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_McTal_BzEeiRfaGvCzFeUg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_MzWoofBzEeiRfaGvCzFeUg" name="output" id="_MzWooPBzEeiRfaGvCzFeUg" label="output" tableType="TABLE">
+      <taggedValue xmi:id="_MzWoovBzEeiRfaGvCzFeUg" tag="Comment" value=""/>
+      <taggedValue xmi:id="_MzWoo_BzEeiRfaGvCzFeUg" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_MzWopPBzEeiRfaGvCzFeUg" name="name" label="name" length="15" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_MzWopfBzEeiRfaGvCzFeUg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_MzWopvBzEeiRfaGvCzFeUg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_MzWop_BzEeiRfaGvCzFeUg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
