@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_AQEEMPCUEeiRfaGvCzFeUg" name="jdbccon" id="__XOfEPCQEeiRfaGvCzFeUg" label="jdbccon" dataPackage="_AQ05MPCUEeiRfaGvCzFeUg _AQ05MfCUEeiRfaGvCzFeUg _AQ05MvCUEeiRfaGvCzFeUg _AQ05M_CUEeiRfaGvCzFeUg" DatabaseType="General JDBC" DriverJarPath="mysql-connector-java-5.1.30-bin.jar" DriverClass="com.mysql.jdbc.Driver" URL="jdbc:mysql://localhost:3306/test" Port="xxxx" Username="root" Password="rizIj6giP70=" ServerName="" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="JDBC" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_AQEEMfCUEeiRfaGvCzFeUg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_AQQ4gPCUEeiRfaGvCzFeUg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_AQRfkPCUEeiRfaGvCzFeUg" tag="Status" value=""/>
+    <taggedValue xmi:id="_AQRfkfCUEeiRfaGvCzFeUg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_AQRfkvCUEeiRfaGvCzFeUg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_AQRfk_CUEeiRfaGvCzFeUg" tag="Description" value=""/>
+    <taggedValue xmi:id="_AQRflPCUEeiRfaGvCzFeUg" tag="Author" value=""/>
+    <taggedValue xmi:id="_AQRflfCUEeiRfaGvCzFeUg" tag="otherParameter"/>
+    <taggedValue xmi:id="_AQXmMPCUEeiRfaGvCzFeUg" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_AQXmMfCUEeiRfaGvCzFeUg" tag="DB ProductVersion" value="5.6.42-log"/>
+    <taggedValue xmi:id="_AQXmMvCUEeiRfaGvCzFeUg" tag="DB IdentifierQuoteString" value="`"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AQ05MPCUEeiRfaGvCzFeUg" name="information_schema" dataManager="_AQEEMPCUEeiRfaGvCzFeUg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AQ05MfCUEeiRfaGvCzFeUg" name="mysql" dataManager="_AQEEMPCUEeiRfaGvCzFeUg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AQ05MvCUEeiRfaGvCzFeUg" name="performance_schema" dataManager="_AQEEMPCUEeiRfaGvCzFeUg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AQ05M_CUEeiRfaGvCzFeUg" name="test" dataManager="_AQEEMPCUEeiRfaGvCzFeUg"/>
+</xmi:XMI>
