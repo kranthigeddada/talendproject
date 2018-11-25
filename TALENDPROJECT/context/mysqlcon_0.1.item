@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_cMuzIPCDEeiRfaGvCzFeUg" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_cMuzIfCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Password" prompt="mysqlcon_Password?" promptNeeded="false" type="id_Password" value="rizIj6giP70="/>
+    <contextParameter xmi:id="_cMuzIvCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Database" prompt="mysqlcon_Database?" promptNeeded="false" type="id_String" value="test"/>
+    <contextParameter xmi:id="_cMuzI_CDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Server" prompt="mysqlcon_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_cMuzJPCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Login" prompt="mysqlcon_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_cMuzJfCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_AdditionalParams" prompt="mysqlcon_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_cMuzJvCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Port" prompt="mysqlcon_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_cMuzJ_CDEeiRfaGvCzFeUg" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_cMuzKPCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Password" prompt="mysqlcon_Password?" promptNeeded="false" type="id_Password" value="rizIj6giP70="/>
+    <contextParameter xmi:id="_cMuzKfCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Database" prompt="mysqlcon_Database?" promptNeeded="false" type="id_String" value="test"/>
+    <contextParameter xmi:id="_cMuzKvCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Server" prompt="mysqlcon_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_cMuzK_CDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Login" prompt="mysqlcon_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_cMuzLPCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_AdditionalParams" prompt="mysqlcon_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_cMuzLfCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Port" prompt="mysqlcon_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_cMuzLvCDEeiRfaGvCzFeUg" confirmationNeeded="false" name="test">
+    <contextParameter xmi:id="_cMuzL_CDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Password" prompt="mysqlcon_Password?" promptNeeded="false" type="id_Password" value="rizIj6giP70="/>
+    <contextParameter xmi:id="_cMuzMPCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Database" prompt="mysqlcon_Database?" promptNeeded="false" type="id_String" value="test"/>
+    <contextParameter xmi:id="_cMuzMfCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Server" prompt="mysqlcon_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_cMuzMvCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Login" prompt="mysqlcon_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_cMuzM_CDEeiRfaGvCzFeUg" comment="" name="mysqlcon_AdditionalParams" prompt="mysqlcon_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter xmi:id="_cMuzNPCDEeiRfaGvCzFeUg" comment="" name="mysqlcon_Port" prompt="mysqlcon_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  </talendfile:ContextType>
+</xmi:XMI>
