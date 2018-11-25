@@ -108,6 +108,7 @@
   </parameters>
   <node componentName="tFileTouch" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileTouch_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Kranthi/workspace/in.csv&quot;"/>
     <elementParameter field="CHECK" name="CREATEDIR" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -160,6 +161,7 @@
     </metadata>
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileTouch_1" offsetLabelX="0" offsetLabelY="0" source="tFileTouch_1" target="tFileExist_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileExist_1" offsetLabelX="0" offsetLabelY="0" source="tFileExist_1" target="tRowGenerator_1">
