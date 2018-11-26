@@ -167,8 +167,8 @@
   <node componentName="tAggregateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1" show="false"/>
     <elementParameter field="TABLE" name="GROUPBYS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="empid"/>
-      <elementValue elementRef="INPUT_COLUMN" value="empid"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="empname"/>
+      <elementValue elementRef="INPUT_COLUMN" value="empname"/>
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS"/>
     <elementParameter field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;"/>
