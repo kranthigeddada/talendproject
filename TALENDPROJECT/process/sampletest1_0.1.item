@@ -171,9 +171,9 @@
       <elementValue elementRef="INPUT_COLUMN" value="empname"/>
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="empname"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="empid"/>
       <elementValue elementRef="FUNCTION" value="count"/>
-      <elementValue elementRef="INPUT_COLUMN" value="empname"/>
+      <elementValue elementRef="INPUT_COLUMN" value="empid"/>
       <elementValue elementRef="IGNORE_NULL" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;"/>
