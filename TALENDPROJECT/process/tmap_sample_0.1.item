@@ -173,7 +173,7 @@
         <mapperTableEntries name="ename" type="id_String" nullable="true"/>
         <mapperTableEntries name="deptid" type="id_String" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="deptid" expression="row1.deptid " type="id_String" nullable="true"/>
         <mapperTableEntries name="deptname" type="id_String" nullable="true"/>
       </inputTables>
