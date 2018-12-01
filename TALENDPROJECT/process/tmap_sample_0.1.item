@@ -159,6 +159,11 @@
       <column comment="" key="false" length="-1" name="deptid" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="deptname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
+    <metadata name="out2">
+      <column comment="" key="false" length="-1" name="eid" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ename" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="deptid" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
@@ -167,6 +172,11 @@
         <mapperTableEntries name="ename" expression="row1.ename " type="id_String" nullable="true"/>
         <mapperTableEntries name="deptid" expression="row1.deptid " type="id_String" nullable="true"/>
         <mapperTableEntries name="deptname" expression="row2.deptname " type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="out2" activateCondensedTool="true" rejectInnerJoin="true">
+        <mapperTableEntries name="eid" expression="row1.eid " type="id_String" nullable="true"/>
+        <mapperTableEntries name="ename" expression="row1.ename " type="id_String" nullable="true"/>
+        <mapperTableEntries name="deptid" expression="row1.deptid " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="eid" type="id_String" nullable="true"/>
