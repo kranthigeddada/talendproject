@@ -119,7 +119,17 @@
       <elementValue elementRef="VALUE" value=""/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
-    <elementParameter field="TABLE" name="INTABLE"/>
+    <elementParameter field="TABLE" name="INTABLE">
+      <elementValue elementRef="eid" value="&quot;1&quot;"/>
+      <elementValue elementRef="ename" value="&quot;kranthi&quot;"/>
+      <elementValue elementRef="deptid" value="&quot;30&quot;"/>
+      <elementValue elementRef="eid" value="&quot;2&quot;"/>
+      <elementValue elementRef="ename" value="&quot;raja&quot;"/>
+      <elementValue elementRef="deptid" value="&quot;20&quot;"/>
+      <elementValue elementRef="eid" value="&quot;3&quot;"/>
+      <elementValue elementRef="ename" value="&quot;chaitu&quot;"/>
+      <elementValue elementRef="deptid" value="&quot;10&quot;"/>
+    </elementParameter>
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
