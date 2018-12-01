@@ -3,7 +3,7 @@
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="4" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -145,8 +145,8 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJoin_1" show="false"/>
     <elementParameter field="CHECK" name="USE_LOOKUP_COLS" value="true"/>
     <elementParameter field="TABLE" name="LOOKUP_COLS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="deptid"/>
-      <elementValue elementRef="LOOKUP_COLUMN" value="deptid"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="deptname"/>
+      <elementValue elementRef="LOOKUP_COLUMN" value="deptname"/>
     </elementParameter>
     <elementParameter field="TABLE" name="JOIN_KEY">
       <elementValue elementRef="INPUT_COLUMN" value="deptid"/>
