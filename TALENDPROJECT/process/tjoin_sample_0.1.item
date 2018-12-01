@@ -145,8 +145,8 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJoin_1" show="false"/>
     <elementParameter field="CHECK" name="USE_LOOKUP_COLS" value="true"/>
     <elementParameter field="TABLE" name="LOOKUP_COLS">
-      <elementValue elementRef="OUTPUT_COLUMN" value="deptname"/>
-      <elementValue elementRef="LOOKUP_COLUMN" value="deptname"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="deptid"/>
+      <elementValue elementRef="LOOKUP_COLUMN" value="deptid"/>
     </elementParameter>
     <elementParameter field="TABLE" name="JOIN_KEY"/>
     <elementParameter field="CHECK" name="USE_INNER_JOIN" value="false"/>
